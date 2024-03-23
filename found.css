@@ -1,0 +1,14 @@
+p, form {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#form_title, input, button {
+  width: 300px;
+  height: 50px;
+}
+
+.reward {
+    width: 300px;
+    height: 20px;
+}

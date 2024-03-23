@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
+  <link rel="stylesheet" href="common.css">
+  <link rel="stylesheet" href="feedback.css">
 </head>
 <body>
   <header>
@@ -8,23 +10,26 @@
     Форма обратной связи
     </h1>
   </header>
-  <ul>
-    <li> <a href="index.html"> Домашняя страница </a>
-    <li> <a href="search.html"> Поиск вещей </a>
-  <li> <a href="reverse.html"> Обратная связь </a>
-    <li> <a href="found.html"> Объявить о находке </a>
+  <nav>
+    <ul>
+      <li> <a href="index.html"> Домашняя страница </a>
+      <li> <a href="search.html"> Поиск вещей </a>
+    <li> <a href="reverse.html"> Обратная связь </a>
+      <li> <a href="found.html"> Объявить о находке </a>
     </ul>
+  </nav>
+<form action="№">
   <fieldset>
  <legend>Напишите свой отзыв о работе сервиса</legend>
- <label>Отзыв<input type="text" required></label><br>
- <label>Имя<input type="text" required></label><br>
- <label>Email<input type="email" required></label><br>
- <button type="submit">Отправить</button>
+ <input type="text" required placeholder="Отзыв"><br>
+ <input type="text" required placeholder="Имя"><br>
+ <input type="email" required placeholder="Email"><br>
+ <button id="send_button" type="submit">Отправить</button>
  </fieldset>
+ </form>
  <footer>
     <p>
-      <b>Связаться с разработчиком:</b>
-      tg <a href="https://t.me/ekarpukhin"> ekarpukhin </a><br> 
+      <b>Связаться с разработчиком:</b> tg <a href="https://t.me/ekarpukhin"> ekarpukhin </a><br> 
     </p>
     <address>
     <p>

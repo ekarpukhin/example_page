@@ -1,0 +1,13 @@
+form {
+    text-align: center;
+    margin: 0 auto;
+}
+
+input {
+  padding: 10px;
+  /* margin: 20px; */
+}
+
+#send_button {
+    content: normal;
+}
