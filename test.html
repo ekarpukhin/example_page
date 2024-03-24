@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <script>
+            function print(){
+                let str = document.getElementById("inp").value;
+                let out = document.getElementById("txt")
+                let t1 = "ur good";
+                let t2 = "ur great";
+                let b = false;
+                for(let tar of ["hello", "goodbye"]){
+                    console.log(str.search(tar));
+                    if (str.search(tar) != -1){
+                        b = true;
+                        if (Math.random()>0.5){     
+                        out.textContent = t2;}
+                        else {
+                            out.textContent = t1;
+                        }
+                    }
+                }
+                if(!b){out.textContent = "huy tebe";}
+            }
+        </script>
+    </head>
+    <body>
+        <input id="inp"><br>
+        <button id="b1" onclick="print()"> WRITE</button>
+        <p id="txt" ></p>
+    </body>
+</html>

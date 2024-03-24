@@ -3,6 +3,7 @@
 <head>
   <link rel="stylesheet" href="common.css">
   <link rel="stylesheet" href="feedback.css">
+  <script src="bot.js"></script>
 </head>
 <body>
   <header>
@@ -27,6 +28,16 @@
  <button id="send_button" type="submit">Отправить</button>
  </fieldset>
  </form>
+<section>
+  <p>Чат бот: начните с <b>hello</b> или <b>bonjour</b>.</p>
+ <div id="chat-box">
+  <div class="chat-message2">Type hello or bonjour.</div>
+</div>
+<div id="input">
+  <input type="text" class="chat-input" placeholder="Введите сообщение"><br>
+  <input type="button" class="chat-input" onclick="process()" value="Отправить">
+</div>
+</section>
  <footer>
     <p>
       <b>Связаться с разработчиком:</b> tg <a href="https://t.me/ekarpukhin"> ekarpukhin </a><br> 
